@@ -1,8 +1,8 @@
-# Large Scale image retrieval using attention
+# Landmark image retrieval using Siamese networks and Attention
 
-This repository contains files used for training Resnet-101 models independently coupled with Spatial attention module, Channel attention module, Squeeze and Excitation(SE) module  and convolution block attention(CBAM) module to 
+This repository contains files used for training Siamese networks with Resnet-101 subnetwork independently coupled with Spatial attention module, Channel attention module, Squeeze and Excitation(SE) module and convolution block attention(CBAM) module to retrieve images in a database similar to the input image. 
 
-Different ensemble of models were tries and tested and the ensemble with the combination of Spatial attention module, Squeeze and Excitation(SE) module  and convolution block attention(CBAM) module provided the highers mean average precision(mAP).
+Different ensemble of models for subnetwork were tried and tested and the ensemble with the combination of Spatial attention module, Squeeze and Excitation(SE) module  and convolution block attention(CBAM) module provided the highers mean average precision(mAP).
 
 The models were developed and trained using TensorFlow utilizing high performance computing GPU clusters (NVIDIA P100 and A100). 
 
